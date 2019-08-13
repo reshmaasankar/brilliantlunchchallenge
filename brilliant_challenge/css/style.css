@@ -24,13 +24,6 @@
     position: relative;
     border: 1px solid black;
     display: inline-block;
-    /*float: left;
-    display: inline-block;
-    /*float: left;
-    display: inline-block;
-    height: 50px;
-    position: absolute;
-    margin-top: 20px;*/
 }
 .liner{
     background-color: blue;
@@ -61,39 +54,3 @@
     display: inline-block;
     color: blue;
 }
-
-
-
-
-
-/*
-        .timeTable {
-        	width: 200px;
-   			height: 720px;
-		    display: inline-block;
-		    text-align: right;
-		    line-height: 28px;
-		    font-size: 12px;
-		   border: none;
-            float:left;
-            border-collapse: collapse;
-           
-        }
-        .timeTable  td {
-        	border:none;
-        	height: 28px;
-        }
-        .eventTable {
-            display: inline-block;
-             width: 600px;
-   			padding-left: 10px;
-    		padding-right: 10px;
-    		height: 720px;
-    		background-color: grey;
-    		margin-top: 15px;
-        }
-        .eventTable td{
-        	height: 28px;
-        }
-
-style.css*/
