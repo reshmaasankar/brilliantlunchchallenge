@@ -1,0 +1,99 @@
+#div1{
+    width: 200px;
+    height: 720px;
+    display: inline-block;
+    text-align: right;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#div2{
+    width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 720px;
+    display: inline-block;
+    background-color: grey;
+    display: inline-block;
+    margin-top: 18px;
+    position: absolute;
+}
+.block{
+    background-color: white;
+    width: 150px;
+    position: relative;
+    border: 1px solid black;
+    display: inline-block;
+    /*float: left;
+    display: inline-block;
+    /*float: left;
+    display: inline-block;
+    height: 50px;
+    position: absolute;
+    margin-top: 20px;*/
+}
+.liner{
+    background-color: blue;
+    width: 10px;
+    /*margin-top: -13px;*/
+    float: left;
+    display: inline-block;
+
+}
+.liner_green{
+    background-color: green;
+    width: 10px;
+    /*margin-top: -13px;*/
+    float: left;
+    display: inline-block;
+
+}
+.liner_black{
+    background-color: black;
+    width: 10px;
+    /*margin-top: -13px;*/
+    float: left;
+    display: inline-block;
+
+}
+.span_txt{
+    float: left;
+    display: inline-block;
+    color: blue;
+}
+
+
+
+
+
+/*
+        .timeTable {
+        	width: 200px;
+   			height: 720px;
+		    display: inline-block;
+		    text-align: right;
+		    line-height: 28px;
+		    font-size: 12px;
+		   border: none;
+            float:left;
+            border-collapse: collapse;
+           
+        }
+        .timeTable  td {
+        	border:none;
+        	height: 28px;
+        }
+        .eventTable {
+            display: inline-block;
+             width: 600px;
+   			padding-left: 10px;
+    		padding-right: 10px;
+    		height: 720px;
+    		background-color: grey;
+    		margin-top: 15px;
+        }
+        .eventTable td{
+        	height: 28px;
+        }
+
+style.css*/

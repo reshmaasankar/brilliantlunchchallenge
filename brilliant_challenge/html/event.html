@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script type="text/javascript" src="../js/event.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        var timeData = ["9:00 AM","9:30","10:00 AM","10:30","11:00 AM","11:30","12:00 AM","12:30","1:00 PM","1:30","2:00 PM","2:30","3:00 PM","3:30","4:00 PM","4:30","5:00 PM","5:30","6:00 PM", "6:30", "7:00 PM", "7.30", "8:00 PM", "8:30", "9:00 PM"];
+            $(document).ready(function(){
+            	
+                $.each(timeData, function(key, value){
+                    $('#div1').append(value+'<br>');
+                });
+
+            });
+
+        </script>
+    </head>
+
+    <body>
+        <div id="div1"></div>
+        <div id="div2"></div>
+    </body>
+</html>
+
+
